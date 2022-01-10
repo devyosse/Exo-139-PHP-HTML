@@ -12,10 +12,18 @@
         //students
         $students = ['Hulk', 'Iron Man', 'Wonder Woman', 'Black Widow', 'Malicia'];
      ?>
-     <ul>
-       <?php
-            // TODO votre code ici
-       ?>
-     </ul>
+     <div>
+         <?php
+         foreach($students as $student){
+             echo "<div>$student</div>";
+         };
+         ?>
+     </div>
+
+
 
     <!-- Incluez le fichier index2.php ici bas de manière a obtenir la suite du code HTML. -->
+
+  <?php
+include "index2.php";
+?>
